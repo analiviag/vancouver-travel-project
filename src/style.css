@@ -1,7 +1,73 @@
-h1 {
+body {
   font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/vancouver.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  padding: 200px 0;
+  line-height: 1.5;
+}
+
+header h1 {
   font-size: 96px;
-  line-height: 144px;
+  font-weight: 700;
+  margin: 30px 0;
+}
+
+header h2 {
+  font-size: 40px;
+  font-weight: 200;
+  margin: 0;
+}
+
+header h3 {
+  font-size: 24px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin: 0;
+}
+
+header a {
+  background-color: white;
+  padding: 16px 32px;
+  text-transform: uppercase;
+  color: #272044;
+  text-decoration: none;
+  font-weight: 700;
+  margin-top: 30px;
+  display: inline-block;
+  letter-spacing: 5px;
+  font-size: 14px;
+}
+
+@media (max-width: 900px) {
+  header {
+    padding: 60px 0px;
+  }
+  header h1 {
+    font-size: 48px;
+  }
+
+  header h2 {
+    font-size: 20px;
+  }
+  header h3 {
+    font-size: 12px;
+  }
+
+  header a {
+    font-size: 10px;
+  }
 }
