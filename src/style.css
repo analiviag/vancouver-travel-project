@@ -115,6 +115,15 @@ section {
   padding: 100px;
 }
 
+.card-img.grid {
+  grid-gap: 0;
+  margin: 0;
+}
+
+.embed {
+  aspect-ratio: 1/1;
+}
+
 .card-header {
   padding: 30px;
 }
