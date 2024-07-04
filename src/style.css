@@ -133,6 +133,10 @@ section {
   margin: 0;
 }
 
+.grid.reels {
+  margin-top: 30px;
+}
+
 .secondary {
   background-color: #f8f8f8;
 }
