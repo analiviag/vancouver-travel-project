@@ -111,17 +111,28 @@ main p {
 }
 section {
   max-width: 100%;
-  display: 0 auto;
+  display: flex;
+  flex-direction: column;
   padding: 100px;
+  align-items: center;
 }
 
 .card-img.grid {
   grid-gap: 0;
   margin: 0;
+  padding: 20px;
+}
+
+.card-img img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
 }
 
 .embed {
+  width: 100%;
   aspect-ratio: 1/1;
+  height: 100%;
 }
 
 .card-header {
@@ -139,6 +150,7 @@ section {
 
 .secondary {
   background-color: #f8f8f8;
+  padding: 20px;
 }
 .text-center {
   text-align: center;
